@@ -30,7 +30,6 @@ module Lecture1
     , strSum
     , lowerAndGreater
     ) where
-import GHC.Float (powerDouble)
 
 -- VVV If you need to import libraries, do it after this line ... VVV
 
@@ -55,7 +54,8 @@ Explanation: @sumOfSquares 3 4@ should be equal to @9 + 16@ and this
 is 25.
 -}
 -- DON'T FORGET TO SPECIFY THE TYPE IN HERE
-sumOfSquares x y = (powerDouble x 2) + (powerDouble y 2)
+sumOfSquares x y = error "TODO!"
+
 {- | Implement a function that returns the last digit of a given number.
 
 >>> lastDigit 42
